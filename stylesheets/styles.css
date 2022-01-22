@@ -1,0 +1,183 @@
+/*
+	Stuff
+*/
+.int-nav {
+	float: right;
+}
+.sm-links {
+	margin: 10px 0 10px 0 !important;
+}
+.main-img {
+	margin: -80px 0 0 0;
+}
+.curr-img {
+	margin: 0 0 20px 20px;
+}
+.img-border { 
+	border: 1px solid #666 !important; 
+}
+.header { 
+	margin: 10px 0 10px 0; 
+}
+.strapline {
+	font: 12px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #777;
+	text-shadow: text-shadow: 0px 1px black;
+	margin: -12px 0 15px 68px;
+}
+.divider {
+	margin: -30px 0 -40px 0;
+}
+.liststyle li {
+	list-style: circle !important;
+	margin:0 0 0 20px;
+}
+
+/*
+	Buttons
+*/
+.button-primary {
+	color: #FFF !important;
+	text-shadow: none !important;
+	background-color: #CC1100 !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#CC1100), to(#8B0000)) !important;
+	background-image: -webkit-linear-gradient(top, #CC1100, #8B0000) !important;
+	background-image: -moz-linear-gradient(top, #CC1100, #8B0000) !important;
+	background-image: -ms-linear-gradient(top, #CC1100, #8B0000) !important;
+	background-image: -o-linear-gradient(top, #CC1100, #8B0000) !important;
+	background-image: linear-gradient(top, #CC1100, #8B0000) !important;
+	-webkit-box-shadow: 0px 1px 3px rgba(0,0,0,.1) !important;
+    -moz-box-shadow: 0px 1px 3px rgba(0,0,0,.1) !important;
+    box-shadow: 0px 1px 3px rgba(0,0,0,.1) !important;
+	-moz-border-radius: 4px !important;
+	-webkit-border-radius: 4px !important;
+	border-radius: 4px !important;
+}
+.button-primary:hover {
+	color: #FFF !important;
+	background-color: #F5554D !important;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#F5554D), to(#CC1100)) !important;
+	background-image: -webkit-linear-gradient(top, #F5554D, #CC1100) !important;
+	background-image: -moz-linear-gradient(top, #F5554D, #CC1100) !important;
+	background-image: -ms-linear-gradient(top, #F5554D, #CC1100) !important;
+	background-image: -o-linear-gradient(top, #F5554D, #CC1100) !important;
+	background-image: linear-gradient(top, #F5554D, #CC1100) !important;
+}
+
+/*
+	Get in touch
+*/
+.contact2 {
+	width:920px !important; 
+	background-color:#eee !important; 
+	padding: 20px 10px 20px 10px !important; 
+	margin-bottom:20px !important;
+	border: 1px solid #ccc !important;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;	
+}
+.contact {
+	width: 300px !important;
+	/*padding: 20px 20px;*/
+	background-color: #eee !important;
+	border: 1px solid #ccc !important;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;	
+}
+.contact-form {
+	width: 300px !important;
+	padding: 20px 20px;
+	margin: 0 0 30px 0;
+	background-color: #eee !important;
+	border: 1px solid #ccc !important;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;	
+}
+.success {
+	width: 900px !important;
+	padding: 20px 20px;
+	background-color: #CDE0A5 !important;
+	border: 1px solid #669900 !important;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;	
+}
+.maptcha {
+	width:20px !important; 
+	display:inline !important;
+}
+.share {
+	padding: 30px 0 30px 0 !important;
+}
+
+/*
+	Catalog
+*/
+#fancybox-title-inside {
+	line-height: 1.8em !important;
+}
+.catalog p { 
+	margin: 0 0 10px 0; 
+}
+.catalog img {
+	border: 1px solid #666 !important; 
+}
+
+/*
+	Navigation
+*/
+#menu {}
+.nav-links { 
+	color: #fff;
+	font-weight: 900;
+	text-shadow: 1px 1px #999, -1px -1px #333;
+	/*text-shadow: rgba(255,255,255,0.5) 0px 1px 1px;*/
+	font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	margin: 7px 0 0 0;
+}
+.nav-links a, .nav-links a:visited { 
+	color: #fff; 
+	text-decoration: none; 
+	outline: 0; 
+}
+.nav-links a:hover, .nav-links a:focus { 
+	color: #fff; 
+	text-decoration: underline; 
+}
+.nav-links ul { 
+	list-style: none; 
+	float: left;
+	width: 940px; 
+	background: #888 !important; 
+	/*
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	*/
+}
+.nav-links li { 
+	display: block; 
+	float: left; 
+	margin: 7px 0px 7px 0px; 
+}
+.mid-dot {
+	margin: 0px 10px 0px 10px; 
+}
+.first { 
+	margin-left: 20px !important; 
+}
+
+/*
+	Footer
+*/
+.copyright {
+	color: #888;
+	font-size: 12px;
+	margin: 20px 0px 20px 0px;
+}
+.copyright .cw {
+	float: right;
+}
