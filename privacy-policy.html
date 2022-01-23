@@ -17,17 +17,17 @@
 	<meta name="google-site-verification" content="bNrnbYW10gpsaAANY-kML-2EJpZicf3wdga_A9i9710" />
 
 	<!-- css -->
-	<link rel="stylesheet" href="http://www.printportraits.com/stylesheets/base.css">
-	<link rel="stylesheet" href="http://www.printportraits.com/stylesheets/skeleton.css">
-	<link rel="stylesheet" href="http://www.printportraits.com/stylesheets/layout.css">
-	<link rel="stylesheet" href="http://www.printportraits.com/stylesheets/styles.css">
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+	<link rel="stylesheet" href="stylesheets/styles.css">
 
 	<!-- mobile specific metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<!-- Favicons -->
-	<link rel="shortcut icon" href="http://www.printportraits.com/favicon.ico" type="image/vnd.microsoft.icon"/>
-	<link rel="icon" href="http://www.printportraits.com/favicon.ico" type="image/x-ico"/>
+	<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon"/>
+	<link rel="icon" href="favicon.ico" type="image/x-ico"/>
 	<!--
 		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
@@ -38,9 +38,43 @@
 <body>
 <div class="container">
 
-	<?php include "../includes/header.php"; ?>
-  	  	
-  	<!-- privacy policy --> 
+	<!-- header -->
+	<a name="top"></a>
+	<div class="sixteen columns header"><a href="index.html"><img title="print portraits" src="images/printportraits-logo-trns.png" alt="print portraits" width="300" height="74" /></a>
+			<div class="strapline">Unique and lasting memories of your children's portraits with their actual hand and footprints.</div>
+			<hr />
+			<div id="menu">
+				<!-- main nav -->
+				<div class="nav-links">
+						<ul>
+								<li class="first"><a href="index.html">Home</a> <span class="mid-dot">&middot;</span></li>
+								<li><a href="why-we-began.html">Why we began...</a> <span class="mid-dot">&middot;</span></li>
+								<li><a rel="nofollow" href="our-gallery.html">Our gallery</a> <span class="mid-dot">&middot;</span></li>
+					<li><a rel="nofollow" href="the-process.html">The process</a> <span class="mid-dot">&middot;</span></li>
+								<li><a rel="nofollow" href="current-projects.html">Current projects</a> <span class="mid-dot">&middot;</span></li>
+								<li><a rel="nofollow" href="about-me.html">A bit about me</a> <span class="mid-dot">&middot;</span></li>
+								<li><a rel="nofollow" href="#">Get in touch</a></li>
+						</ul>
+					</div>
+					<!-- mobile nav -->
+					<div class="mobile-nav-links" style="display:none;">
+						<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="why-we-began.html">Why we began...</a></li>
+								<li><a rel="nofollow" href="our-gallery.html">Our gallery</a></li>
+								<li><a rel="nofollow" href="the-process.html">The process</a></li>
+								<li><a rel="nofollow" href="current-projects.html">Current projects</a></li>
+								<li><a rel="nofollow" href="about-me.html">A bit about me</a></li>
+								<li><a rel="nofollow" href="#">Get in touch</a></li>
+						</ul>
+					</div>
+			</div>
+		</div>
+		<div class="sixteen columns divider">
+		<img src="images/slide-shadow2.png" width="960" height="21"/>
+	</div>
+
+  	<!-- privacy policy -->
   	<div class="sixteen columns">
 <h1>Privacy policy</h1>
 <p>We are committed to safeguarding the privacy of our website visitors; this policy sets out how we will treat your personal information.</p>
@@ -122,14 +156,53 @@
 <h2>(11) Updating information</h2>
 <p>Please let us know if the personal information which we hold about you needs to be corrected or updated.</p>
 <h2>(12) Data controller</h2>
-<p>We are currently in the process of applying for registration of our data protection number, for any inquires regarding this or any legal matters please contact us by email <a href="mailto:hello@printportraits.com">info@ftgum.com</a> using our contact form.</p>
+<p>We are currently in the process of applying for registration of our data protection number, for any inquires regarding this or any legal matters please contact us by email <a href="mailto:hello@printportraits.com">hello@printportraits.com</a> using our contact form.</p>
 <h2>(13) Contact</h2>
-<p>If you have any questions about this privacy policy or our treatment of your personal information, please contact us by email <a href="mailto:hello@printportraits.com">info@ftgum.com</a> or by post to <em>40 Leawood Road, Fleet, Hampshire, GU51 5AN.</em>.</p>
+<p>If you have any questions about this privacy policy or our treatment of your personal information, please contact us by email <a href="mailto:hello@printportraits.com">hello@printportraits.com"</a> or by post to <em>[Address]</em>.</p>
 														<div class="separator"></div>
-<p class="footer-contact">For more information email us at <a href="mailto:hello@printportraits.com">hello@printportraits.com</a> or complete our <a href="http://www.printportraits.com/get-in-touch/">Get in touch</a> form.</p>
+<p class="footer-contact">For more information email us at <a href="mailto:hello@printportraits.com">hello@printportraits.com</a> or complete our <a href="#">Get in touch</a> form.</p>
   	</div>
 
-  	<?php include "../includes/footer.php"; ?>
-  	
+		<!-- footer -->
+		<div class="sixteen columns">
+			<hr />
+			<div class="copyright"><a href="privacy-policy.html">Privacy Policy</a> &middot; <a href="sitemap.xml">Sitemap XML</a> <span class="cw">Copyright &copy; 2013 Print Portraits</span></div>
+	</div>
+
+</div>
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- google -->
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-21207385-8']);
+			_gaq.push(['_trackPageview']);
+			(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+	</script>
+
+	<!-- scripts -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script>
+		!window.jQuery && document.write('<script src="scripts/jquery-1.4.3.min.js"><\/script>');
+	</script>
+	<script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("a#lightbox").fancybox({
+				'titlePosition'	: 'inside'
+			});
+
+		});
+	</script>
+
 </body>
 </html>
